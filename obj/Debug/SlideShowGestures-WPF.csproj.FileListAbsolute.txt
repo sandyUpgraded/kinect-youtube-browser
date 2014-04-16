@@ -1,0 +1,15 @@
+C:\Users\skhaund\Documents\Kinect Stuff\SlideshowGestures-WPF\bin\Debug\RandomDecisionForest.Proposal.Harness.XML
+C:\Users\skhaund\Documents\Kinect Stuff\SlideshowGestures-WPF\bin\Debug\Slideshow.exe
+C:\Users\skhaund\Documents\Kinect Stuff\SlideshowGestures-WPF\bin\Debug\Slideshow.pdb
+C:\Users\skhaund\Documents\Kinect Stuff\SlideshowGestures-WPF\bin\Debug\Microsoft.Samples.Kinect.SwipeGestureRecognizer.dll
+C:\Users\skhaund\Documents\Kinect Stuff\SlideshowGestures-WPF\obj\Debug\SlideShowGestures-WPF.csprojResolveAssemblyReference.cache
+C:\Users\skhaund\Documents\Kinect Stuff\SlideshowGestures-WPF\obj\Debug\MainWindow.baml
+C:\Users\skhaund\Documents\Kinect Stuff\SlideshowGestures-WPF\obj\Debug\MainWindow.g.cs
+C:\Users\skhaund\Documents\Kinect Stuff\SlideshowGestures-WPF\obj\Debug\App.g.cs
+C:\Users\skhaund\Documents\Kinect Stuff\SlideshowGestures-WPF\obj\Debug\Slideshow_MarkupCompile.cache
+C:\Users\skhaund\Documents\Kinect Stuff\SlideshowGestures-WPF\obj\Debug\Slideshow.g.resources
+C:\Users\skhaund\Documents\Kinect Stuff\SlideshowGestures-WPF\obj\Debug\Slideshow.exe
+C:\Users\skhaund\Documents\Kinect Stuff\SlideshowGestures-WPF\obj\Debug\Slideshow.pdb
+C:\Users\skhaund\Documents\Kinect Stuff\Kinews\bin\Debug\RandomDecisionForest.Proposal.Harness.XML
+C:\Users\skhaund\Documents\Kinect Stuff\Kinews\obj\Debug\Slideshow.exe
+C:\Users\skhaund\Documents\Kinect Stuff\Kinews\obj\Debug\Slideshow.pdb

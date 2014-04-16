@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Slideshow</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Samples.Kinect.Slideshow.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.Kinect.Slideshow.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.Kinect.Slideshow.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.Kinect.Slideshow.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.Kinect.Slideshow.MainWindow.activeRecognizer">
+            <summary>
+            The recognizer being used.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.Kinect.Slideshow.MainWindow.nui">
+            <summary>
+            The sensor we're currently tracking.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.Kinect.Slideshow.MainWindow.isDisconnectedField">
+            <summary>
+            There is currently no connected sensor.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.Kinect.Slideshow.MainWindow.disconnectedReasonField">
+            <summary>
+            Any message associated with a failure to connect.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.Kinect.Slideshow.MainWindow.skeletons">
+            <summary>
+            Array to receive skeletons from sensor, resize when needed.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.Kinect.Slideshow.MainWindow.highlightTime">
+            <summary>
+            Time until skeleton ceases to be highlighted.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.Kinect.Slideshow.MainWindow.nearestId">
+            <summary>
+            The ID if the skeleton to be tracked.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.Kinect.Slideshow.MainWindow.indexField">
+            <summary>
+            The index of the current image.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.Kinect.Slideshow.MainWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Samples.Kinect.Slideshow.MainWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.Kinect.Slideshow.MainWindow.CreateRecognizer">
+            <summary>
+            Create a wired-up recognizer for running the slideshow.
+            </summary>
+            <returns>The wired-up recognizer.</returns>
+        </member>
+        <member name="M:Microsoft.Samples.Kinect.Slideshow.MainWindow.InitializeNui">
+            <summary>
+            Handle insertion of Kinect sensor.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.Kinect.Slideshow.MainWindow.UninitializeNui">
+            <summary>
+            Handle removal of Kinect sensor.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.Kinect.Slideshow.MainWindow.OnMainWindowLoaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Window loaded actions to initialize Kinect handling.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The event args.</param>
+        </member>
+        <member name="M:Microsoft.Samples.Kinect.Slideshow.MainWindow.OnSkeletonFrameReady(System.Object,Microsoft.Kinect.SkeletonFrameReadyEventArgs)">
+            <summary>
+            Handler for skeleton ready handler.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The event args.</param>
+        </member>
+        <member name="M:Microsoft.Samples.Kinect.Slideshow.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="E:Microsoft.Samples.Kinect.Slideshow.MainWindow.PropertyChanged">
+            <summary>
+            Event implementing INotifyPropertyChanged interface.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.Kinect.Slideshow.MainWindow.IsDisconnected">
+            <summary>
+            Gets a value indicating whether no Kinect is currently connected.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.Kinect.Slideshow.MainWindow.DisconnectedReason">
+            <summary>
+            Gets any message associated with a failure to connect.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.Kinect.Slideshow.MainWindow.Index">
+            <summary>
+            Gets or sets the index number of the image to be shown.
+            </summary>
+        </member>
+    </members>
+</doc>
